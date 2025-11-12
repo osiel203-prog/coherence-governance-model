@@ -71,19 +71,17 @@
             <p id="message-box" class="mt-4 text-center text-sm font-medium text-red-600"></p>
         </section>
 
-        <!-- Documentation Links - THIS SECTION HAS BEEN UPDATED WITH PLACEHOLDERS -->
+        <!-- Documentation Links - NOW FINALIZED -->
         <section class="bg-gray-100 p-6 rounded-xl shadow-inner">
-            <h2 class="text-2xl font-bold text-gray-800 mb-4">Documentation & Resources (Update These Links!)</h2>
-            <p class="text-gray-600 mb-4">
-                **IMPORTANT:** These links must be updated with the **Raw GitHub URLs** after you upload the PDF documents.
-                See the instructions in the chat for how to generate these public links.
-            </p>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Documentation & Resources (Links Finalized)</h2>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <a id="link-paper" href="[REPLACE_WITH_YOUR_GITHUB_RAW_URL]/Structural_Governance_Paper.pdf" target="_blank" class="flex items-center space-x-3 p-3 bg-white rounded-lg shadow hover:shadow-md transition duration-150">
+                <!-- LINK FOR STRUCTURAL GOVERNANCE PAPER (Structural Governance.pdf) -->
+                <a id="link-paper" href="https://github.com/osiel203-prog/coherence-governance-model/blob/main/Structural%20Governance%20Academic%20Paper%20Source%20with%20names.pdf" target="_blank" class="flex items-center space-x-3 p-3 bg-white rounded-lg shadow hover:shadow-md transition duration-150">
                     <svg class="w-6 h-6 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m-6 4h6"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 21h4a2 2 0 002-2V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
                     <span class="text-gray-700 font-medium">Structural Governance Paper (Theory)</span>
                 </a>
-                <a id="link-guide" href="[REPLACE_WITH_YOUR_GITHUB_RAW_URL]/CGM_User_Guide.pdf" target="_blank" class="flex items-center space-x-3 p-3 bg-white rounded-lg shadow hover:shadow-md transition duration-150">
+                <!-- LINK FOR CGM USER GUIDE (Google Gemini - Coherence Governance Model.pdf) -->
+                <a id="link-guide" href="https://github.com/osiel203-prog/coherence-governance-model/blob/main/Google%20Gemini%20-%20Coherence%20Governance%20Model.pdf" target="_blank" class="flex items-center space-x-3 p-3 bg-white rounded-lg shadow hover:shadow-md transition duration-150">
                     <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.832 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.832 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.168 18 16.5 18s-3.332.477-4.5 1.253"></path></svg>
                     <span class="text-gray-700 font-medium">CGM User Guide (Estimation Protocol)</span>
                 </a>
@@ -186,7 +184,7 @@
 
                 // 3. Final Coherence Index (CI)
                 ci = 1 - (ETotal / CEff);
-                
+
                 // Status Logic
                 if (ci > 0.050) {
                     statusText = "Resilient Zone (CI > 0.050). The system has significant capacity and is robust.";
@@ -209,7 +207,7 @@
 
             document.getElementById('ci-output').textContent = ci.toFixed(3);
             document.getElementById('ci-result-card').className = `bg-white p-6 rounded-xl shadow-2xl border-b-4 ${ci > 0.050 ? 'border-green-500' : (ci >= 0.00 ? 'border-yellow-500' : 'border-red-500')} transition-all duration-300`;
-            
+
             const statusElement = document.getElementById('ci-status');
             statusElement.textContent = statusText;
             statusElement.className = `mt-4 text-center text-sm font-medium p-2 rounded-lg ${statusColor}`;
