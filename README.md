@@ -1,61 +1,53 @@
-The Coherence Governance Model (CGM)
+**The Coherence Governance Model (CGM)**
 
-Structural Governance: A Framework for Organizational Physics
+**The Structural Imperative: Why This Matters**
 
-The Coherence Governance Model (CGM) is a mathematically defensible framework designed to quantify an organization's structural health and predict systemic failure. It reframes organizational leadership as a problem of applied physics, providing a single metric—the Coherence Index ($\mathbf{CI}$)—to move decisions from subjective opinion to objective data.
+This project exists to change the core conversation around burnout, systemic abuse, and organizational failure.
 
-Our core thesis: Organizational collapse and burnout are not moral failures; they are predictable, preventable consequences of applied physics.
+We believe that organizational collapse, high turnover, and the sense of being pressured by metrics are not moral failings—they are predictable, preventable consequences of applied physics. When required effort exceeds effective capacity, the system is mathematically guaranteed to fail. This failure often results in the exact human tragedies you seek to prevent: lost homes, broken marriages, and talented people forced to quit.
 
-📚 Core Documents
+The Coherence Governance Model (CGM) gives us the objective, shared metric needed to fight back. It replaces subjective negotiation with a mathematically defensible structural imperative.
 
-The project consists of two primary documents, serving different audiences:
+**The Core Idea: Organizational Physics & The Coherence Index (CI)**
 
-Document
+The CGM measures the Headroom—the capacity reserve available to absorb shocks and manage future work—within any team, project, or organization.
 
-Format
+The resulting number is the Coherence Index (CI).
 
-Audience
+$\text{CI} > 0.050$: The system is in the Resilient Zone. It is robust, capable of innovation, and can handle unexpected shocks.
 
-Focus
+$\text{CI} \approx 0.00$: The system is at the Coherence Loss Threshold (CLT). Technical Collapse is imminent. $100\%$ of effective capacity is consumed just trying to meet current commitments.
 
-1. Structural Governance: A Coherent Synthesis
+$\text{CI} < 0.00$: The system is in a state of Technical Collapse. Required effort exceeds effective capacity. The system will fail.
 
-PDF / $\mathbf{\LaTeX}$
 
-Academics, Executives, Strategists
+**Call to Action: CR-90**
 
-Rigorous Proof: Integrates Resource-Based View (RBV), Transaction Cost Economics (TCE), and Real Options Theory (ROT) to derive the core formulas for $\mathbf{E_{Total}}$ and $\mathbf{C_{Eff}}$.
+We need 90 data points to establish the model's validity across diverse environments.
 
-2. The Coherence Action Charter
+Your mission is to model a real project you led or witnessed and submit your five key numbers.
 
-Markdown
 
-Team Leaders, Employees, Activists
+**Calculate your CI using the live web tool.**
 
-Structural Mandate: Provides the layman's translation of the five core axioms ($\mathbf{C, S, D, T, V}$) and establishes the Right to Function based on the $\mathbf{CI}$.
+Submit your data in the format: Project Type (e.g., Sprints, Feature, Q3 Roadmap) | C | S | D | T | V
 
-Links to Files
 
-Read the Full Academic Paper (PDF) (The definitive source for the model's proof)
+**Documentation & Resources**
 
-Read the Coherence Action Charter (The manifesto for change)
+[Read the Full Structural Governance Paper](Structural Governance.pdf) - For the rigorous academic and theoretical background.
 
-🎯 Call to Action: Join the CR-90 Rollout
+[Read the Full User Guide and Protocol](CGM User Guide and Data Collection Protocol.pdf) - For detailed definitions, estimation guidance, and the exact formulas.
 
-We need 90 real-world data points to establish the model's validity across diverse environments.
 
-We invite you to participate in CR-90 (Coherence Rollout - 90 Data Points) by modeling a project you led or witnessed and submitting your five key numbers: Capacity ($\mathbf{C}$), Scope ($\mathbf{S}$), Drift ($\mathbf{D}$), Tension ($\mathbf{T}$), and Volatility ($\mathbf{V}$).
+**Next Step: The Web Calculator**
 
-Try the Calculator
+We have built a frictionless, single-file web calculator to make testing the CI effortless.
 
-We have built a simple, single-file web calculator to make testing the $\mathbf{CI}$ effortless.
+[Launch the CI Calculator Here] (https://www.google.com/search?q=https://live-app-url.com/your-calculator-preview)
 
-[Launch the Coherence Index Calculator (Coming Soon)]
-(This link will be updated once the final calculator is hosted)
 
-✍️ The Coherence Governance Collaborative
-
-This project is the result of a powerful collaboration.
+**This project is the result of a powerful collaboration.**
 
 Authored By:
 
