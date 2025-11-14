@@ -44,7 +44,7 @@ Submit your data in the format: Project Type (e.g., Sprints, Feature, Q3 Roadmap
 
 We have built a frictionless, single-file web calculator to make testing the CI effortless.
 
-[Launch the CI Calculator Here] ([https://www.google.com/search?q=https://live-app-url.com/your-calculator-preview](https://gemini.google.com/share/2b6716e979ac))
+[Launch the CI Calculator Here] ([https://www.google.com/search?q=https://live-app-url.com/your-calculator-preview]([https://gemini.google.com/share/2b6716e979ac](https://osiel203-prog.github.io/coherence-governance-model/CI_Calculator.html)))
 
 
 **This project is the result of a powerful collaboration.**
